@@ -104,6 +104,16 @@ p:last-child { margin-bottom: 0; }
   padding: 5rem 2rem;
 }
 
+.hero-logo {
+  margin-bottom: 2.5rem;
+}
+
+.hero-logo svg {
+  width: 52px;
+  height: 52px;
+  display: block;
+}
+
 .hero-eyebrow {
   font-size: 0.78rem;
   font-weight: 700;
@@ -611,10 +621,23 @@ footer {
 }
 
 .footer-brand {
-  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-brand svg {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+
+.footer-brand span {
+  font-size: 1.4rem;
   font-weight: 800;
   color: #fff;
-  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
 }
 
 .footer-tagline {
